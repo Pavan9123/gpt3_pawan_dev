@@ -18,10 +18,10 @@ const Navbar = () => {
   const Menu = () => (
     <>
       <p><a href='#home' onClick={() => {setCloseMenu(true); setToggleMenu(false);}}>Home</a></p>
-      <p><a href='#whgtp3'>What is GPT?</a></p>
-      <p><a href='#possibility'>Open AI</a></p>
-      <p><a href='#features'>Case Studies</a></p>
-      <p><a href='#blog'>Library</a></p>
+      <p><a href='#whgtp3' onClick={() => {setCloseMenu(true); setToggleMenu(false);}}>What is GPT?</a></p>
+      <p><a href='#possibility' onClick={() => {setCloseMenu(true); setToggleMenu(false);}}>Open AI</a></p>
+      <p><a href='#features' onClick={() => {setCloseMenu(true); setToggleMenu(false);}}>Case Studies</a></p>
+      <p><a href='#blog' onClick={() => {setCloseMenu(true); setToggleMenu(false);}}>Library</a></p>
     </>
   )
 
