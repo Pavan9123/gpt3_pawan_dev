@@ -54,10 +54,12 @@
 .gpt3__footer-sectionB div h1{
     font-size: 14px;
     line-height: 16px;
+    cursor: pointer;
 }
 .gpt3__footer-sectionB div p{
     font-size: 12px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 @media screen and (max-width:850px){

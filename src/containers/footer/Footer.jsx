@@ -16,22 +16,22 @@ function Footer() {
         </div>
         <div>
           <h3>Links</h3>
-          <p><a href=""></a>Overons</p>
-          <p><a href=""></a>Social Media</p>
-          <p><a href=""></a>Counters</p>
-          <p><a href=""></a>Contact</p>
+          <p>Overons</p>
+          <p>Social Media</p>
+          <p>Counters</p>
+          <p>Contact</p>
         </div>
         <div>
           <h3>Company</h3>
-          <p><a href=""></a>Terms & Conditions</p>
-          <p><a href=""></a>Privacy Policy</p>
-          <p><a href=""></a>Contact</p>
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Contact</p>
         </div>
         <div>
           <h3>Get in touch</h3>
-          <p><a href=""></a>Crechterwoord K12 182 DK Alknjkcb</p>
-          <p><a href=""></a>085-132567</p>
-          <p><a href=""></a>info@payme.net</p>
+          <p>Crechterwoord K12 182 DK Alknjkcb</p>
+          <p>085-132567</p>
+          <p>info@payme.net</p>
         </div>
       </div>
     </div>

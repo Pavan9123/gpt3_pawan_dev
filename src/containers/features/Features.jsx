@@ -1,7 +1,7 @@
 import React from 'react'
 import './features.css'
 import Feature from '../../components/feature/Feature'
-import Feature_Image from  '../../assets/Feature Image.png'
+import features from  '../../assets/Feature Image.png'
 
 const data = {
   title1: 'What is GPT-3',
@@ -31,7 +31,7 @@ function Features() {
       </div>
       <div className='gpt3__feature__container2'>
         <div className='gpt3__feature__container2-img'>
-          <img src={Feature_Image} alt="feature image" />
+          <img src={features} alt="feature" />
         </div>
         <div className='gpt3__feature__container2-content'>
           <h4><a href="#home">Request Early Access to Get Started</a></h4>

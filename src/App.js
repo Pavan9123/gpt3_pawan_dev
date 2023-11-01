@@ -1,11 +1,11 @@
 import './App.css';
 import './index.css'
-import {Footer, Blog, WhatGPT3, Features, Header, Possibility} from './containers'
+import {Footer, Blog, WhatGPT3, Features, Header} from './containers'
 import {Navbar,Brand, CTA} from './components'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       <div className='gradient__bg'>
         <Navbar />
         <Header />
