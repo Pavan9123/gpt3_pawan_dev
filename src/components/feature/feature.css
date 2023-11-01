@@ -24,11 +24,16 @@
     color: var(--color-text);
 }
 
-@media screen and (max-width:900px){
-    .gpt3__whtgpt3-feature .gpt3__feature{
-        flex-direction: column;
+
+@media screen and (max-width:450px){
+    .gpt3__feature-title h1{
+        font-size: 24px;
+        line-height: 30px;
     }
-    .gpt3__whtgpt3-Features{
-        flex-direction: column;
+    .gpt3__feature-text p{
+        font-size: 12px;
+        line-height: 18px;
     }
+    
 }
+

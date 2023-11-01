@@ -1,0 +1,88 @@
+.gpt3__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+
+.gpt3__footer-sectionA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.gpt3__footer-sectionA button{
+    font-size: 18px;
+    line-height: 21px;
+    padding: 1rem;
+    background: transparent;
+    outline: none;
+    border: 1px solid #ffff;
+    color: #ffff;
+}
+.gpt3__footer-sectionA h1{
+    margin-bottom: 1rem;
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    text-align: center;
+}
+.gpt3__footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 210px;
+}
+.gpt3__footer-logo span{
+    margin-top: 1rem;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.gpt3__footer-sectionB{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.gpt3__footer-sectionB div{
+    margin: 2rem;
+}
+.gpt3__footer-sectionB div h1{
+    font-size: 14px;
+    line-height: 16px;
+}
+.gpt3__footer-sectionB div p{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:850px){
+    .gpt3__footer-sectionB{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .gpt3__footer-sectionB div{
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .gpt3__footer-sectionA h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .gpt3__footer-sectionA button{
+        padding: 0.5rem;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .gpt3__footer-logo img{
+        width: 80px;
+    }
+    
+}
